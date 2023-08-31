@@ -5,7 +5,7 @@ Para utilizar este projeto, siga os passos abaixo:
 1. Instale a biblioteca `node-jt400` executando o seguinte comando:
 
     ```bash
-    npm install node-jt400
+    npm install node-jt400 --save
     ```
 
 2. Instale o Visual Studio, clicando no seguinte link: [Instalador Visual Studio](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&workload=dotnet-dotnetwebcloud&passive=false#dotnet).

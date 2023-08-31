@@ -13,12 +13,12 @@ const config = {
   // Função para executar a consulta
   function executarConsulta() {
     // Consulta SQL
-    const sqlQuery = "SELECT AM01_ARTNAM  FROM BASDB01.AM01 WHERE AM01_ARTNUM = ?";
-    const params = [3074];
+    const sqlQuery = "select current date from sysibm.sysdummy1";
+    //const params = [3074];
   
     // Executando a consulta usando a pool de conexões
     dbPool
-      .query(sqlQuery, params)
+      .query(sqlQuery/*, params*/)
       .then(result => {
         console.log('Resultado da consulta:');
         console.log(result);
